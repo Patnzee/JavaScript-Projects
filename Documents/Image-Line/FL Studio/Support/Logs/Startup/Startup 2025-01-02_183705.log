@@ -1,75 +1,0 @@
-[02/01/2025 18:37:05] C:\Users\nzima\OneDrive\Documents\Image-Line\FL Studio\Support\Logs\Startup\Startup 2025-01-02_183705.log
-[02/01/2025 18:37:05] HostVersion=1 Flags=00000000
-[02/01/2025 18:37:05] Init module
-[02/01/2025 18:37:06] Init core paths
-[02/01/2025 18:37:06] FL Studio v24.2.1.4526
-[02/01/2025 18:37:06] BeforeRunning
-[02/01/2025 18:37:06] Starting at 18:37:0664Bit addressing mode3DNow! support: noSSE    support: yesSSE2   support: yesSSE3   support: yesSSSE3  support: yesAVX    support: noTouchscreen not availableMain GUI scaling factor: 1 (system set to 96PPI)Temporary folder for this session:C:\Users\nzima\AppData\Local\Temp\Image-Line\{BFD8D41B-7233-44F2-A181-1CEBB8902F7F}\FL Studio language: English (US)Windows display language: en-GB---
-[02/01/2025 18:37:06] ReadIniFile
-[02/01/2025 18:37:06]   Restore window state
-[02/01/2025 18:37:06]   Restore settings window
-[02/01/2025 18:37:06]     Assigned(MIDIForm) = 
-[02/01/2025 18:37:06] Image-Line Remote server created
-[02/01/2025 18:37:06]   Read various options
-[02/01/2025 18:37:06]   Read more options
-[02/01/2025 18:37:06]   Load MRU list
-[02/01/2025 18:37:06]   Restore more window settings
-[02/01/2025 18:37:06] Animation timer set to 16ms, vsync enabled
-[02/01/2025 18:37:06]   Read audio options
-[02/01/2025 18:37:06]   Update tools menu
-[02/01/2025 18:37:06]   Init things
-[02/01/2025 18:37:06]   Initialize fonts
-[02/01/2025 18:37:06]   List piano roll chords
-[02/01/2025 18:37:07]   Build wavetables
-[02/01/2025 18:37:07]   Find templates
-[02/01/2025 18:37:07]   Find other files
-[02/01/2025 18:37:07]   Load bitmaps
-[02/01/2025 18:37:07]   Initialize Python
-[02/01/2025 18:37:07]   Initialize MIDI
-[02/01/2025 18:37:07]   Update favorite plugins
-[02/01/2025 18:37:07]   Initialize audio outputs
-[02/01/2025 18:37:07] Mixer track map: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125---
-[02/01/2025 18:37:07] Mixer threading map rebuilt: 1 layer(s)   Layer 1: 1 unit(s)      Unit 1: track(s) 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125---
-[02/01/2025 18:37:08] Opening ASIO driver: FL Studio ASIO version 1Buffer length: 512 framesIn/out latency: 2790/2898 framesTime out: 21ms (926 frames)---
-[02/01/2025 18:37:08] Opening MIDI output devices
-[02/01/2025 18:37:08]   Start the MIDI sync thread
-[02/01/2025 18:37:08]   Initialize the plugin scanner
-[02/01/2025 18:37:08]   Start various workers
-[02/01/2025 18:37:08]   Initialize the help file
-[02/01/2025 18:37:08]   More initialization
-[02/01/2025 18:37:08]   Load PreviewTrack.fst
-[02/01/2025 18:37:08] Loading FLP file: C:\Program Files\Image-Line\FL Studio 2024\Data\System\PreviewTrack.fst
-[02/01/2025 18:37:08] Loading project: version 4.5.4
-[02/01/2025 18:37:08] ---
-[02/01/2025 18:37:08]   Continuing more initialization
-[02/01/2025 18:37:08]   Create MIDI clock receiver
-[02/01/2025 18:37:08]   Done initializing things
-[02/01/2025 18:37:08]   Update browser
-[02/01/2025 18:37:08]   (job) Initialize FL Cloud Plugins
-[02/01/2025 18:37:08]   Update channel rack
-[02/01/2025 18:37:08]   Update toolbars and stuff
-[02/01/2025 18:37:08]   (job) Initialize FL Cloud Plugins - done
-[02/01/2025 18:37:08]   Restore settings for most windows
-[02/01/2025 18:37:08]   Init DWM
-[02/01/2025 18:37:08] ReadIniFile - end
-[02/01/2025 18:37:09] BeforeRunning - end
-[02/01/2025 18:37:09] ProcessFirstTimeStuff
-[02/01/2025 18:37:09] Loading FLP file: C:\Users\nzima\Downloads\Roland E-09 Bass&Lead +Brightness.flp
-[02/01/2025 18:37:09] Mixer track map: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,0---
-[02/01/2025 18:37:09] Mixer threading map rebuilt: 2 layer(s)   Layer 1: 1 unit(s)      Unit 1: track(s) 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125   Layer 2: 1 unit(s)      Unit 1: track(s) 0---
-[02/01/2025 18:37:09] Loading project: version 20.8.3.2304
-[02/01/2025 18:37:09] Threaded generator(s): 0
-[02/01/2025 18:37:09] Threaded generator(s): 0
-[02/01/2025 18:37:09] Wrapper says: Create VST plugin: file="" id=scva
-[02/01/2025 18:37:09] Threaded generator(s): 0
-[02/01/2025 18:37:09] Threaded generator(s): 1
-[02/01/2025 18:37:09] Threaded generator(s): 1
-[02/01/2025 18:37:09] Wrapper says: Create VST plugin: file="" id=scva
-[02/01/2025 18:37:09] Threaded generator(s): 1
-[02/01/2025 18:37:11] Browser caching took 4875 milliseconds.
-[02/01/2025 18:41:13] ---
-[02/01/2025 18:41:13] Mixer track map: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,0---
-[02/01/2025 18:41:13] Mixer threading map rebuilt: 2 layer(s)   Layer 1: 1 unit(s)      Unit 1: track(s) 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125   Layer 2: 1 unit(s)      Unit 1: track(s) 0---
-[02/01/2025 18:41:13] Play startup sound
-[02/01/2025 18:41:13] Startup took 247 seconds and 701 milliseconds.
-[02/01/2025 18:41:13] End of startup log
