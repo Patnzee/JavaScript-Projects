@@ -1,0 +1,29 @@
+@import 'https://academyoflearning.evaluationkit.com/canvas/css';
+iframe#toolkitFrame{ height: 600px; }
+/*background colour*/
+.touch {
+background-color:#EFEFEF!important;
+}
+
+/* pitman logo at top */
+.mobileLogin-Header {
+  background-image:url('https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_131960000000000001/attachments/70150/Pitman%20Training%20Logo.png');
+  background-size:180px auto;
+}
+
+/* forgot password link */
+.forgotBlock a {
+  color:#005cad;
+}
+
+/* login button */
+.Button--block {
+  background-color:#005cad;
+  border:1px solid #005cad;
+}
+
+/*login form panel */
+#f1_card {
+  background-color:#fff;
+  padding:1em 2em;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am Sihle.M</title>
+</head>
+<body>  
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="Assignment.html">Home</a> |
+    <a href="Dog.html">Dog Picture</a> |
+    <a href="Dog_Video.html">Dog Video</a>
+  </nav>
+
+  <h1>Welcome to My Site</h1>
+  <p>This is about me.</p>
+
+  <!-- Main Section -->
+  <main>
+    <h2>My Adventures</h2>
+
+    <!-- Blockquote with attribution -->
+    <blockquote>
+        "Life is like a music chord played on a piano."
+        <footer>- Sihle M.</footer>
+    </blockquote>
+
+    <p>Here's some text about my adventures.</p>
+
+    <!-- Explicit Link to Online Image -->
+    <p>Click the link below to view an online image:</p>
+    <a href="https://img4.newpetowners.com/89/2016/1022/7b/5/332331/original.jpg" target="_blank">View Image</a>
+
+    <!-- Local Image -->
+    <img src="Images/adventure.jpg" alt="A beautiful adventure image" width="500">
+  </main>
+
+  <!-- Embed YouTube Video -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mvcx8epfyLs?si=1FDMqXpbUoxK1fzf" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <!-- Link to Dog Page -->
+  <p><a href="Dog.html">Go to Dog Page</a></p>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Thank you for visiting my site!</p>
+  </footer>
+</body>
+</html>

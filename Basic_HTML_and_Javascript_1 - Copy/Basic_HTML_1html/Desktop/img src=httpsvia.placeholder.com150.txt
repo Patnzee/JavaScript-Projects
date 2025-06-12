@@ -1,0 +1,87 @@
+from pathlib import Path
+
+# HTML content with placeholder images instead of local image paths
+placeholder_html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tags Challenge with Placeholders</title>
+</head>
+<body>
+
+    <!-- Navigation Menu with Section Links -->
+    <nav>
+        <ul>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#gallery-section">Gallery</a></li>
+            <li><a href="#reservations-section">Reservations</a></li>
+            <li><a href="#photo-gallery">Photo Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <h2>Welcome to Our Space Experience</h2>
+        <p>This page demonstrates how we use HTML tags to organize content in a unique and engaging way.</p>
+    </section>
+
+    <!-- Gallery Section (using <article> tag) -->
+    <section id="gallery-section">
+        <article>
+            <h2>Journey to the Stars</h2>
+            <p>In this article, we explore the future of space travel and how it’s becoming more accessible for everyday explorers.</p>
+            <p>This is a standalone content block — perfect for news, blog posts, or featured stories.</p>
+        </article>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations-section">
+        <h2>Reservations</h2>
+
+        <!-- Details and Summary -->
+        <details>
+            <summary>Want to Know More?</summary>
+            <p>Space tourism is evolving rapidly. Companies are now offering orbit tours and even lunar experiences.</p>
+            <p>More details will be announced soon. Stay tuned for updates on pricing and launch schedules!</p>
+        </details>
+
+        <!-- Time Tag Example -->
+        <div>
+            <h3>Next Launch Schedule</h3>
+            <p>The next shuttle will take off on 
+                <time datetime="2025-04-01T14:00">April 1st, 2025 at 2:00 PM</time>.
+            </p>
+            <p>Reserve your seat before 
+                <time datetime="2025-03-25">March 25th, 2025</time> to guarantee a spot.</p>
+        </div>
+    </section>
+
+    <!-- Personal Photo Gallery Section with Placeholder Images -->
+    <section id="photo-gallery">
+        <h2>My Journey In Pictures</h2>
+        <p>Here are some special moments captured during my adventures.</p>
+
+        <div>
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 1">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 2">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 3">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 4">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 5">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 6">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 7">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 8">
+            <img src="https://via.placeholder.com/150" alt="Thumbnail 9">
+        </div>
+    </section>
+
+</body>
+</html>
+"""
+
+# Save the placeholder test HTML file
+placeholder_file_path = Path("/mnt/data/index_with_placeholder_images.html")
+placeholder_file_path.write_text(placeholder_html_content)
+
+# Provide the download link
+placeholder_file_path.name

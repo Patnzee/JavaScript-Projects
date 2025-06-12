@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML 1 - Image and Alt Attribute</title>
+</head>
+<body>
+
+    <h1>Image and Alt Attribute Assignment</h1>
+
+    <!-- Corrected Image Path and Alt Text -->
+    <img src="image.jpg" alt="A cute dog sitting on the grass" width="300">
+
+</body>
+</html>
