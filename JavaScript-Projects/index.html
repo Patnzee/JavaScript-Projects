@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>JavaScript Comparison and Type Coercion</title>
+  <meta charset="UTF-8">
+  <title>Project 6 – Ternary, Constructors, Nested Functions</title>
+  <script src="JS/main.js" defer></script>
 </head>
 <body>
-    <h1>JavaScript Output Examples</h1>
 
-    <!-- Infinity Assignment Output -->
-    <h2>Infinity Results:</h2>
-    <p id="positive-infinity"></p>
-    <p id="negative-infinity"></p>
+  <h1>Project 6 – JavaScript Practice</h1>
 
-    <hr>
+  <!-- Ternary Operator Section -->
+  <h2>Ternary Operator: Voting Eligibility</h2>
+  <p>Enter your age:</p>
+  <input type="number" id="ageInput" placeholder="e.g. 18">
+  <button onclick="checkVotingEligibility()">Check</button>
+  <p id="TernaryOutput" style="color: green;"></p>
 
-    <h2>Instructions:</h2>
-    <ul>
-        <li>All assignment results (like typeof, coercion, equality, Boolean logic) are displayed using <code>document.write()</code>.</li>
-        <li><strong>Infinity results</strong> are shown above in the two fields using <code>getElementById()</code>.</li>
-        <li><strong>Console outputs</strong> (math + Boolean check) can be viewed in the browser's <strong>Developer Console</strong>:
-            <ul>
-                <li>Right-click on the page → Select <strong>Inspect</strong></li>
-                <li>Click on the <strong>Console</strong> tab</li>
-            </ul>
-        </li>
-    </ul>
+  <hr>
 
-    <!-- Link to main.js -->
-    <script src="JS/main.js"></script>
+  <!-- Constructor Function Section -->
+  <h2>Constructor Function Test</h2>
+  <p id="ConstructorOutput" style="color: darkblue;"></p>
+
+  <hr>
+
+  <!-- Reserved Keyword Challenge (extra for learning) -->
+  <h2>Reserved Keyword Challenge</h2>
+  <p id="ReservedWordTest" style="color: darkred;"></p>
+
+  <hr>
+
+  <!-- Nested Function Section -->
+  <h2>Nested Functions Assignment</h2>
+  <p id="Nested_Function" onclick="countFunction()" style="cursor: pointer; color: purple;">
+    Click me to increment
+  </p>
+
 </body>
 </html>
