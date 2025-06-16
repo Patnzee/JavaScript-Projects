@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>JavaScript Comparison and Type Coercion</title>
+  <meta charset="UTF-8">
+  <title>Scope, Time, and Debugging</title>
 </head>
 <body>
-    <h1>JavaScript Output Examples</h1>
 
-    <!-- Infinity Assignment Output -->
-    <h2>Infinity Results:</h2>
-    <p id="positive-infinity"></p>
-    <p id="negative-infinity"></p>
+  <h2>Scope, Time, and Debugging Assignment</h2>
 
-    <hr>
+  <p>Click to see the greeting based on current time:</p>
+  <button onclick="Time_function()">Show Time Greeting</button>
+  <p id="timeMessage"></p>
 
-    <h2>Instructions:</h2>
-    <ul>
-        <li>All assignment results (like typeof, coercion, equality, Boolean logic) are displayed using <code>document.write()</code>.</li>
-        <li><strong>Infinity results</strong> are shown above in the two fields using <code>getElementById()</code>.</li>
-        <li><strong>Console outputs</strong> (math + Boolean check) can be viewed in the browser's <strong>Developer Console</strong>:
-            <ul>
-                <li>Right-click on the page → Select <strong>Inspect</strong></li>
-                <li>Click on the <strong>Console</strong> tab</li>
-            </ul>
-        </li>
-    </ul>
+  <p>Click to see a scope example result:</p>
+  <button onclick="scopeTest()">Scope Test</button>
+  <p id="scopeResult"></p>
 
-    <!-- Link to main.js -->
-    <script src="JS/main.js"></script>
+  <p>Click to test the debugging example:</p>
+  <button onclick="brokenFunction()">Debug Test</button>
+
+  <script src="main.js"></script>
 </body>
 </html>
