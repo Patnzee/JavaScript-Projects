@@ -2,23 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scope, Time, and Debugging</title>
+  <title>Project 8 – String & Number Methods</title>
 </head>
 <body>
 
-  <h2>Scope, Time, and Debugging Assignment</h2>
+  <h1>Project 8: String & Number Methods</h1>
 
-  <p>Click to see the greeting based on current time:</p>
-  <button onclick="Time_function()">Show Time Greeting</button>
-  <p id="timeMessage"></p>
+  <h2>1. concat() Method</h2>
+  <p id="concatResult"></p>
+  <button onclick="showConcat()">Run concat()</button>
 
-  <p>Click to see a scope example result:</p>
-  <button onclick="scopeTest()">Scope Test</button>
-  <p id="scopeResult"></p>
+  <h2>2. slice() Method</h2>
+  <p id="sliceResult"></p>
+  <button onclick="showSlice()">Run slice()</button>
 
-  <p>Click to test the debugging example:</p>
-  <button onclick="brokenFunction()">Debug Test</button>
+  <h2>3. toString() Method</h2>
+  <p id="toStringResult"></p>
+  <button onclick="showToString()">Run toString()</button>
 
-  <script src="main.js"></script>
+  <h2>4. toPrecision() Method</h2>
+  <p id="precisionResult"></p>
+  <button onclick="showPrecision()">Run toPrecision()</button>
+
+  <script src="JS/main.js"></script>
 </body>
 </html>
