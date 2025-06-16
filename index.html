@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Project 8 – String & Number Methods</title>
+    <meta charset="UTF-8">
+    <title>Countdown & Slideshow</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-  <h1>Project 8: String & Number Methods</h1>
+<!-- Countdown Section -->
+<input type="text" id="seconds" placeholder="Enter seconds">
+<button onclick="countdown()">Start Countdown</button>
+<p id="timer"></p>
 
-  <h2>1. concat() Method</h2>
-  <p id="concatResult"></p>
-  <button onclick="showConcat()">Run concat()</button>
+<!-- Slideshow Section -->
+<div class="slideshow-container">
+    <div class="slide fade"><img src="images/image1.jpg" style="width:100%"></div>
+    <div class="slide fade"><img src="images/image2.jpg" style="width:100%"></div>
+    <div class="slide fade"><img src="images/image3.jpg" style="width:100%"></div>
+</div>
 
-  <h2>2. slice() Method</h2>
-  <p id="sliceResult"></p>
-  <button onclick="showSlice()">Run slice()</button>
-
-  <h2>3. toString() Method</h2>
-  <p id="toStringResult"></p>
-  <button onclick="showToString()">Run toString()</button>
-
-  <h2>4. toPrecision() Method</h2>
-  <p id="precisionResult"></p>
-  <button onclick="showPrecision()">Run toPrecision()</button>
-
-  <script src="JS/main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
