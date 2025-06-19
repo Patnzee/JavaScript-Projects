@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎯 TIC TAC TOE GAME 🎮</title>
+    <link rel="stylesheet" href="CSS/game.css"> <!-- Correct path to your CSS -->
+</head>
+<body>
+
+    <h1>🎯 TIC TAC TOE GAME 🎮</h1>
+    <p id="status">X's turn</p>
+    <button onclick="resetGame()" class="restart-button">Restart Game</button>
+
+    <!-- Game Grid -->
+    <table>
+        <tr>
+            <td id="0" onclick="placeXOrO('0')"></td>
+            <td id="1" onclick="placeXOrO('1')"></td>
+            <td id="2" onclick="placeXOrO('2')"></td>
+        </tr>
+        <tr>
+            <td id="3" onclick="placeXOrO('3')"></td>
+            <td id="4" onclick="placeXOrO('4')"></td>
+            <td id="5" onclick="placeXOrO('5')"></td>
+        </tr>
+        <tr>
+            <td id="6" onclick="placeXOrO('6')"></td>
+            <td id="7" onclick="placeXOrO('7')"></td>
+            <td id="8" onclick="placeXOrO('8')"></td>
+        </tr>
+    </table>
+
+    <!-- Canvas for win line -->
+    <canvas id="win-line" width="600" height="600"></canvas>
+
+    <!-- JavaScript -->
+    <script src="JS/tictactoe.js"></script>
+
+</body>
+</html>
