@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Mate</title>
+    <link rel="stylesheet" href="CSS/one_page_website.css">
+    <script defer src="JS/one_page_website.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Who We Are?</h1>
+        <p>Street Mate is a Gospel music and event organizing crew. We do small events for now, but we’re hoping to grow and expand in the future.</p>
+        <div>
+            <img src="images/speaker.png" alt="Gospel Music Speaker" width="500">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home Page</h2>
+        <p>Welcome to our one-page website project! This page is designed to help you get to know more about us and our services. In future lessons, we’ll style it with CSS and add interactions with JavaScript.</p>
+    </section>
+
+    <section id="about">
+        <h2>About This Site</h2>
+        <p>This page covers a range of topics related to music and entertainment. We’ve designed it to be user-friendly and welcoming. Later on, we’ll improve the layout and interactivity using CSS and JavaScript.</p>
+    </section>
+
+    <section id="features">
+        <h2>This Page Is All About</h2>
+        <ul>
+            <li>Event updates</li>
+            <li>Promoting upcoming Gospel artists</li>
+            <li>Motivational tours</li>
+            <li>Event organizing</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a variety of services to suit your interests. These include:</p>
+        <ul>
+            <li>Music events</li>
+            <li>Live performances</li>
+            <li>Live streaming</li>
+            <li>Motivational speakers</li>
+        </ul>
+    </section>
+
+    <section id="media">
+        <h2>Media Section</h2>
+        <p>We also do church visits. The videos below were taken during some of our visits:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eOgPqHYBO8s" title="Gospel Music Video 1" frameborder="0" allowfullscreen></iframe>
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FOgImKfpdPg" title="Gospel Music Video 2" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="images/speaker.png" class="lightbox">
+                <img src="images/speaker.png" alt="Speaker">
+            </a>
+            <a href="images/keyboard_play.png" class="lightbox">
+                <img src="images/keyboard_play.png" alt="Keyboard Player">
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..." required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My One-Page Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
