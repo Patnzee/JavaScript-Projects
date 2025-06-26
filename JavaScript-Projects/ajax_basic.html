@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX Basic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AJAX Content Loader</h1>
+<button onclick="loadContent()">Load Content</button>
+<div id="display-area"></div>
+
+<!-- This script loads content.html into the page -->
+<script>
+  function loadContent() {
+    var xhr = new XMLHttpRequest();
+
+    // When the request completes successfully
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        document.getElementById("display-area").innerHTML = xhr.responseText;
+      }
+    };
+
+    xhr.open("GET", "content.html", true); // Request content.html file
+    xhr.send();
+  }
+</script>
+
+</body>
+</html>
