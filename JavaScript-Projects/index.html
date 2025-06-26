@@ -2,39 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Project 6 – Ternary, Constructors, Nested Functions</title>
-  <script src="JS/main.js" defer></script>
+  <title>jQuery Assignment</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #box {
+      width: 150px;
+      height: 150px;
+      background-color: coral;
+      display: none; /* Initially hidden */
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Project 6 – JavaScript Practice</h1>
+  <h2>jQuery Click and Effect Example</h2>
 
-  <!-- Ternary Operator Section -->
-  <h2>Ternary Operator: Voting Eligibility</h2>
-  <p>Enter your age:</p>
-  <input type="number" id="ageInput" placeholder="e.g. 18">
-  <button onclick="checkVotingEligibility()">Check</button>
-  <p id="TernaryOutput" style="color: green;"></p>
+  <!-- Button triggers the click event -->
+  <button id="showBtn">Show Box</button>
 
-  <hr>
+  <!-- Box that will be displayed with jQuery effect -->
+  <div id="box"></div>
 
-  <!-- Constructor Function Section -->
-  <h2>Constructor Function Test</h2>
-  <p id="ConstructorOutput" style="color: darkblue;"></p>
-
-  <hr>
-
-  <!-- Reserved Keyword Challenge (extra for learning) -->
-  <h2>Reserved Keyword Challenge</h2>
-  <p id="ReservedWordTest" style="color: darkred;"></p>
-
-  <hr>
-
-  <!-- Nested Function Section -->
-  <h2>Nested Functions Assignment</h2>
-  <p id="Nested_Function" onclick="countFunction()" style="cursor: pointer; color: purple;">
-    Click me to increment
-  </p>
+  <!-- Linking external JS file -->
+  <script src="main.js"></script>
 
 </body>
 </html>
